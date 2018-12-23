@@ -16,3 +16,7 @@ phases:
       - echo Build completed on `date`
       - node bin/app.js
 
+artifacts:
+  files:
+    - bin/app.js
+
